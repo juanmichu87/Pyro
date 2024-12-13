@@ -1,0 +1,7 @@
+{
+  "name": "TFGFinder",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
