@@ -35,3 +35,73 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+/* Fondo global */
+body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ion-content {
+    --background: transparent;
+  }
+  ion-title {
+    font-weight: bold;
+    color: #ffffff;
+    padding-left: 2;
+    padding-top: 10px;
+
+  }
+  
+  /* Menu TAB */
+  ion-tab-bar {
+    --background:  #ffffff;
+    --border-color: transparent;
+
+
+  }
+  
+  ion-tab-button {
+    color: #a1a1a1;
+  }
+  
+  ion-tab-button.tab-selected {
+    color:  #ffa5f5;
+    
+  }
+  
+
+
+  ion-toolbar {
+    --background: transparent; /* Elimina el fondo por defecto */
+    background: linear-gradient(to bottom, #ff8e8e, #ffa5f5, #d7a1fd);
+
+    
+  }
+
+  /* Contenido de la Card */
+ion-card-content {
+    font-family: 'Open Sans', sans-serif; /* Fuente personalizada para el contenido */
+    font-size: 1rem; /* Tamaño de fuente del contenido */
+    color: #ffffff; /* Color de texto del contenido */
+    line-height: 1.5; /* Espaciado entre líneas */
+    text-align: justify; /* Justifica el texto */
+    font-weight: bold; /* Negrita */
+
+
+  }
+  ion-card-title {
+    font-weight: bold; /* Negrita */
+    color: #ffffff; /* Color de texto del contenido */
+
+
+}
+
+  
+  ion-card {
+    font-weight: bold; /* Negrita */
+    background: linear-gradient(to right, #ff8e8e, #ffa5f5, #d7a1fd);
+    overflow: hidden; /* Elimina el desbordamiento de contenido */
+  }
+  
+  

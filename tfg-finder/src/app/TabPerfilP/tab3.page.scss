@@ -1,0 +1,116 @@
+/* Header transparente con título en negrita */
+
+  
+  /* Estilos de la vista de perfil */
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Header dentro del Toolbar con imagen y nombre centrados */
+  .profile-header-container {
+    display: flex;
+    flex-direction: column; /* Centra la imagen y nombre verticalmente */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0; /* Añadir más espacio para que el header sea más grande */
+  }
+  
+  .profile-image {
+    width: 120px; /* Aumenta el tamaño de la imagen */
+    height: 120px;
+    border-radius: 25%;
+    overflow: hidden;
+    margin-bottom: 1rem; /* Añadir espacio entre la imagen y el nombre */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Añadir sombra a la imagen */
+  }
+  
+  .profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  
+  /* Información del perfil */
+  .profile-info {
+    margin-top: 1rem;
+  
+    h2 {
+      font-size: 1.5rem;
+      margin: 0;
+      color: #000000;
+    }
+  
+    p {
+      font-size: 1rem;
+      color: #777;
+      margin-top: 0.5rem;
+    }
+  }
+  
+  /* Estadísticas */
+  .profile-stats {
+    margin: 1.5rem 0;
+  
+    .stat {
+      text-align: center;
+  
+      h3 {
+        margin: 0;
+        font-size: 1.25rem;
+        color: #000;
+      }
+  
+      p {
+        margin: 0.25rem 0;
+        font-size: 0.9rem;
+        color: #777;
+      }
+    }
+  }
+  
+  /* Acciones */
+  .profile-actions {
+    width: 100%;
+    padding: 0 1.5rem;
+  
+    ion-button {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+    }
+  }
+  
+  /* Botón Aceptar: Fondo sólido */
+  .botonAceptar {
+    background-color: #d38dff; /* Color de fondo personalizado */
+    color: #ffffff; /* Texto blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    font-size: 1rem; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    transition: background-color 0.3s ease; /* Efecto suave al cambiar color */
+  }
+  
+  .botonAceptar:hover {
+    background-color: #c973ff; /* Color de fondo más oscuro al pasar el cursor */
+  }
+  
+  /* Botón Denegar: Contorno */
+  .botonDenegar {
+    --border-color: #fe6868; /* Color del borde */
+    --color: #fe6868; /* Color del texto */
+    --border-radius: 8px; /* Bordes redondeados */
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Efecto suave */
+  }
+  
+  .botonDenegar:hover {
+    --background: #fe6868; /* Fondo rojo al pasar el cursor */
+    --color: #ffffff; /* Texto blanco */
+  }
+  
