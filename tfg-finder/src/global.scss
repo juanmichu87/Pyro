@@ -66,7 +66,7 @@ body {
   }
   
   ion-tab-button.tab-selected {
-    color:  #ffa5f5;
+    color:  #ffac58;
     
   }
   
@@ -74,7 +74,7 @@ body {
 
   ion-toolbar {
     --background: transparent; /* Elimina el fondo por defecto */
-    background: linear-gradient(to bottom, #ff8e8e, #ffa5f5, #d7a1fd);
+    background: linear-gradient(to bottom, #ff5656, #ffa689, #ffa047);
 
     
   }
@@ -100,7 +100,7 @@ ion-card-content {
   
   ion-card {
     font-weight: bold; /* Negrita */
-    background: linear-gradient(to right, #ff8e8e, #ffa5f5, #d7a1fd);
+    background: linear-gradient(to right, #ff5656, #ffa689, #ffa047);
     overflow: hidden; /* Elimina el desbordamiento de contenido */
   }
   
