@@ -3,10 +3,11 @@
     <ion-title>
       TFGs
     </ion-title>
-    <!-- Botón de notificaciones -->
+    <!-- Botón de notificaciones con un ion-badge -->
     <ion-buttons slot="end">
       <ion-button [routerLink]="['/vista-notificacion']" style="margin-right: 10px;" fill="clear">
         <ion-icon name="notifications-outline" slot="icon-only"></ion-icon>
+        <ion-badge color="danger" style="position: absolute; top: -5px; right: -5px;">{{ notificationsCount }}</ion-badge>
       </ion-button>
     </ion-buttons>
   </ion-toolbar>

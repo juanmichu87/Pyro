@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
+  notificationsCount: number = 3; // Este valor puede ser dinámico
 
   constructor() {}
 
