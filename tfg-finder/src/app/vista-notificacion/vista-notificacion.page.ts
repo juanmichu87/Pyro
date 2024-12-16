@@ -13,4 +13,10 @@ export class VistaNotificacionPage {
   cerrarVista() {
     this.router.navigate(['/tabs/tab2']);
   }
+
+  // Método que se llama cuando el ion-card es clickeado
+  onCardClick() {
+    // Redirigir a la página de tab2
+    this.router.navigate(['/tabs/tab2']);
+  }
 }

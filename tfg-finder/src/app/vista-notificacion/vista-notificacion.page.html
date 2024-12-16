@@ -1,6 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>vistaNotificacion</ion-title>
+    <ion-title>Notificaciones</ion-title>
     <ion-buttons slot="end">
       <!-- Botón de cierre (X) -->
       <ion-button [routerLink]="['/tabs/tab2']" style="margin-right: 10px;" fill="clear">
@@ -16,4 +16,27 @@
       <ion-title size="large">vistaNotificacion</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <!-- ion-card con imagen a la derecha y borde circular, y ahora selectivo -->
+  <ion-card button (click)="onCardClick()">
+    <ion-card-header>
+      <ion-card-title>Nombre de Usuario</ion-card-title>
+      <ion-card-subtitle>Nombre del TFG</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <!-- Contenedor con texto a la izquierda y imagen a la derecha -->
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <!-- Texto en la izquierda -->
+        <div style="flex-grow: 1;">
+          Esto es un ejemplo para poner la breve solicitud del usuario
+        </div>
+
+        <!-- Imagen a la derecha con borde circular -->
+        <div style="flex-shrink: 0;">
+          <img src="https://ionicframework.com/docs/img/demos/card-media.png" alt="Imagen de ejemplo" />
+        </div>
+      </div>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

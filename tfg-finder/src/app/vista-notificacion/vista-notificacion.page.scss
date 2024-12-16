@@ -1,0 +1,46 @@
+ion-card {
+    /* Estilo del ion-card si lo necesitas */
+    margin-bottom: 16px;
+  }
+  
+  ion-card-header {
+    /* Espaciado para el título */
+    margin-bottom: 2px;
+  }
+  
+  ion-card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  ion-card-subtitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color:#181818;
+  }
+  
+  ion-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+  }
+  
+  ion-card-content div {
+    display: flex;
+    align-items: center;
+  }
+  
+  ion-card-content div:first-child {
+    flex-grow: 1; /* El texto toma todo el espacio disponible */
+    margin-right:20px; /* Separación entre el texto y la imagen */
+  }
+  
+  ion-card-content img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ffffff; /* Borde gris alrededor de la imagen */
+  }
+  
