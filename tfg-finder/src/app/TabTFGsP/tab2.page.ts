@@ -9,4 +9,15 @@ export class Tab2Page {
 
   constructor() {}
 
+   // Acción cuando se hace clic en el botón de notificaciones
+   onNotificationsClick() {
+    console.log('Botón de notificaciones pulsado');
+    // Aquí puedes navegar a otra página o abrir un modal de notificaciones
+  }
+
+  // Acción cuando se selecciona una tarjeta
+  onCardClick(cardTitle: string) {
+    console.log(`Se seleccionó la tarjeta: ${cardTitle}`);
+    // Aquí puedes mostrar un detalle o redirigir a otra página
+  }
 }
