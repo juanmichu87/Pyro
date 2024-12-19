@@ -1,6 +1,13 @@
 <ion-content class="ion-padding login-background">
   <div class="login-container">
-    <h1>Bienvenido</h1>
+    <h1 class="custom-title">TFGinder</h1> <!-- Nuevo título en rojo -->
+
+    <!-- Contenedor de la imagen -->
+    <div class="image-container">
+      <img src="https://i.ibb.co/XDgcYzQ/imagen.jpg" alt="Imagen de TFGinder" />
+    </div>
+
+    <h2>Bienvenido</h2>
     <ion-input
       class="custom-input"
       placeholder="Usuario"
@@ -12,7 +19,6 @@
       type="password"
     ></ion-input>
 
-    <ion-button class="custom-button" expand="full" (click)="iniciarSesion()">Iniciar Sesión</ion-button> <!-- Asegúrate de que esté bien conectado -->
-
+    <ion-button class="custom-button" expand="full" (click)="iniciarSesion()">Iniciar Sesión</ion-button>
   </div>
 </ion-content>

@@ -1,51 +1,80 @@
+/* Contenedor de la imagen con bordes redondeados */
+.image-container {
+  margin-bottom: 15px;
+  width: 150px; /* Ajusta el tamaño del contenedor según necesites */
+  height: 150px;
+  border-radius: 25px; /* Bordes redondeados */
+  overflow: hidden; /* Asegura que la imagen respete el borde */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Mantiene la proporción de la imagen y la ajusta al contenedor */
+  border-radius: 25px; /* Asegura el redondeo de la imagen */
+}
+
 /* Fondo customizable */
 .login-background {
-    --background: url('https://www.semana.com/resizer/v2/6TED4ZPC2NHT3IJIOP5W75VJHY.JPG?auth=25a8ce28d5933429a98afbae375513a783a244858d401f5b7dfca0ae8821a3f8&smart=true&quality=75&width=1280&fitfill=false') no-repeat center center / cover;
-  }
-  
-  /* Contenedor del formulario */
-  .login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.8); /* Efecto translúcido */
-    border-radius: 10px;
-    max-width: 350px;
-    margin: auto;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Título */
-  h1 {
-    margin-bottom: 20px;
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  /* Inputs personalizados */
-  .custom-input {
-    margin-bottom: 15px;
-    --padding-start: 10px;
-    --padding-end: 10px;
-    color: #333;
-    border: none;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Botón personalizado */
-  .custom-button {
-    --background: #ff4837;
-    --background-hover: #ff7e1b;
-    --color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-transform: uppercase;
-    font-weight: 500;
-  }
-  
+  --background: url('https://www.semana.com/resizer/v2/6TED4ZPC2NHT3IJIOP5W75VJHY.JPG?auth=25a8ce28d5933429a98afbae375513a783a244858d401f5b7dfca0ae8821a3f8&smart=true&quality=75&width=1280&fitfill=false') 
+  no-repeat center center / cover;
+}
+
+/* Contenedor del formulario */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Efecto translúcido */
+  border-radius: 10px;
+  max-width: 350px;
+  margin: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Título Principal */
+.custom-title {
+  margin-bottom: 15px;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #ff552b; /* Color rojo */
+  text-transform: uppercase;
+}
+
+/* Título secundario */
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Inputs personalizados */
+.custom-input {
+  margin-bottom: 15px;
+  --padding-start: 10px;
+  --padding-end: 10px;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Botón personalizado */
+.custom-button {
+  --background: #ff4837;
+  --background-hover: #ff7e1b;
+  --color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
